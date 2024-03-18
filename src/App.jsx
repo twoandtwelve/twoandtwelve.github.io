@@ -1,10 +1,8 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react'
 
-function App() {
+export default function App() {
   (
-    <h1>wad app</h1>
+    <h1>app</h1>
   )
 }
 
-export default App
