@@ -1,8 +1,15 @@
 import React from 'react'
+//import Header from './components/Header'
+//import Nav from './components/Nav'
+//import Footer from './components/Footer'
 
 export default function App() {
-  (
-    <h1>app</h1>
+  return (
+    <>
+      <div>
+        <h1>wad</h1>
+      </div>
+    </>
   )
 }
 
