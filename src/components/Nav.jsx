@@ -2,8 +2,9 @@ import React from "react"
 
 export default function Nav() {
     return (
-        <>
-            <nav>Nav here!</nav>
-        </>
+        <nav>
+            <a>Projects</a>
+            <a>Github</a>
+        </nav>
     )   
 }
