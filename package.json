@@ -2,6 +2,7 @@
   "name": "personal-website",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://twoandtwelve.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
