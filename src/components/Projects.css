@@ -1,15 +1,17 @@
-.title {
+.section_title {
     display: flex;
     font-size: 1.5rem;
     font-weight: 800;
-    margin-bottom: 1rem;
+    margin-top: 40px;
 }
 
 .projects_container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap; 
     max-width: 800px; 
-    margin: 0 auto; 
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 .article {
