@@ -8,7 +8,10 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-      }
+      },
+      width: {
+        '700': '700px',
+       }
     },
   },
   plugins: [],
