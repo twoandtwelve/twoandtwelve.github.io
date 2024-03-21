@@ -8,11 +8,9 @@ import Footer from './components/Footer'
 export default function App() {
   return (
     <div>
-      <Header />
       <Nav />
-      <About />
-      <Projects />
-      <Footer />
+      <Header />
+
     </div>
   )
 }
