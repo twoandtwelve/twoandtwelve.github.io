@@ -4,8 +4,7 @@ import uoa from "/public/images/uoa.jpg"
 export default function About() {
     return (
         <section id='about' className='max-w-3xl mx-auto px-8 py-5 pb-52'>
-            <h2 className='mb-16 font-medium text-xl'>about me</h2>
-            <h3 className='mb-10 font-medium text-xl'>education</h3>
+            <h2 className='mb-10 font-medium text-xl'>education</h2>
             <div className='flex flex-col sm:flex-row pb-20'>   
                 <img src={uoa} className='mx-0 max-w-32 max-h-32'/>
                 <div className='px-0 sm:px-12'>
@@ -17,7 +16,7 @@ export default function About() {
                     <p>Specialising in <strong>Software</strong> under the department of Electrical, Computer Systems, and Software Engineering (ECSE).</p>
                 </div>   
             </div>
-            <h3 className='mb-10 font-medium text-xl'>interests</h3>
+            <h2 className='mb-10 font-medium text-xl'>interests</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iusto dolorum accusamus dolorem
                 dignissimos ullam enim pariatur sit neque debitis, inventore delectus,
                 quam est, praesentium tenetur consequuntur suscipit nulla eaque??</p>
