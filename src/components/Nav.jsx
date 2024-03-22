@@ -12,7 +12,7 @@ export default function Nav() {
                     <a href='#about'>about me</a>
                 </div>
                 <div className="flex gap-4">
-                    <a className ='flex items-center gap-1'>resume<GoDownload/></a>
+                    <a href="/public/files/jackykim_cv.pdf" download className ='flex items-center gap-1'>resume<GoDownload/></a>
                     <a href='https://github.com/twoandtwelve'>github</a>
                     <a href='https://www.linkedin.com/in/jacky-kim-21b154263/'>linkedIn</a>
                 </div>
