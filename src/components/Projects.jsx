@@ -16,7 +16,7 @@ export default function Projects() {
                     <div className='p-4 grow'>
                         <h3 className='mb-4 font-medium text-xl'>HarderTurrets</h3>
                         <p className='mb-4'>A Lethal Company mod that increases the spawnrate & difficulty of turrets. These settings can be configured by the player to their liking.</p>
-                        <p>C#, BepInEx, Harmony, ILSpy, .NET Framework</p>
+                        <p className='italic'>C#, BepInEx, Harmony, ILSpy, .NET Framework</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
                         <a href='https://thunderstore.io/c/lethal-company/p/jacky/HarderTurrets/'><GoLinkExternal /></a>
@@ -30,7 +30,7 @@ export default function Projects() {
                     <div className='p-4 grow'>
                         <h3 className='mb-4 font-medium text-xl'>Portfolio Website</h3>
                         <p className='mb-4'>A personal website to display my projects & portfolio work.</p>
-                        <p>React, Javascript, Tailwind CSS</p>
+                        <p className='italic'>React, Javascript, Tailwind CSS</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
                     <a href='#home'><GoLinkExternal /></a>
@@ -44,7 +44,7 @@ export default function Projects() {
                     <div className='p-4 grow'>
                         <h3 className='mb-4 font-medium text-xl'>InfiniteSprayCans</h3>
                         <p className='mb-4'>A Lethal Company mod that allows infinite use of the spray paint can item.</p>
-                        <p>C#, BepInEx, Harmony, ILSpy, .NET Framework</p>
+                        <p className='italic'>C#, BepInEx, Harmony, ILSpy, .NET Framework</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
                         <a href='https://thunderstore.io/c/lethal-company/p/jacky/InfiniteSprayCans/'><GoLinkExternal /></a>
@@ -58,7 +58,7 @@ export default function Projects() {
                     <div className='p-4 grow'>
                         <h3 className='mb-4 font-medium text-xl'>NoLateNotification</h3>
                         <p className='mb-4'>A Lethal Company mod that removes the alert that pops up when it gets late in-game.</p>
-                        <p>C#, BepInEx, Harmony, ILSpy, .NET Framework</p>
+                        <p className='italic'>C#, BepInEx, Harmony, ILSpy, .NET Framework</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
                         <a href='https://thunderstore.io/c/lethal-company/p/jacky/NoLateNotification/'><GoLinkExternal /></a>
@@ -73,7 +73,7 @@ export default function Projects() {
                         <h3 className='mb-4 font-medium text-xl'>COSMIC CATASTROPHE</h3>
                         <p className='mb-4'>An escape room-like game developed collaboratively with two other classmates for
                         a course project.</p>
-                        <p>Java, JavaFX, OpenAI, Maven</p>
+                        <p className='italic'>Java, JavaFX, OpenAI, Maven</p>
                     </div> 
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
                     <a href='https://github.com/twoandtwelve/escape-room-game'><AiOutlineGithub /></a>
@@ -87,7 +87,7 @@ export default function Projects() {
                         <h3 className='mb-4 font-medium text-xl'>Terraria Cheat Sheet Script</h3>
                         <p className='mb-4'>A python script that generates a cheat sheet containing useful 
                         in-game information for Terraria Calamity Mod.</p>
-                        <p>Python, BeautifulSoup4, gspread, Google Sheets API</p>
+                        <p className='italic'>Python, BeautifulSoup4, gspread, Google Sheets API</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
                     <a href='https://github.com/twoandtwelve/weapons-cheatsheet'><AiOutlineGithub /></a>
