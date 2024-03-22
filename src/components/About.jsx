@@ -20,10 +20,7 @@ export default function About() {
             <h3 className='mb-10 font-medium text-xl'>interests</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iusto dolorum accusamus dolorem
                 dignissimos ullam enim pariatur sit neque debitis, inventore delectus,
-                quam est, praesentium tenetur consequuntur suscipit nulla eaque?</p>
-            
-            
-            
+                quam est, praesentium tenetur consequuntur suscipit nulla eaque??</p>
         </section>
     )   
 }   
