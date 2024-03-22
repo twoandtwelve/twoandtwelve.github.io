@@ -10,7 +10,7 @@ export default function App() {
     <div>
       <Nav />
       <Header />
-
+      <Projects />
     </div>
   )
 }
