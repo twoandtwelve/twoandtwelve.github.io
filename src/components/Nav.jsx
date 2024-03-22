@@ -1,4 +1,6 @@
 import React from "react"
+import { GoDownload } from "react-icons/go";
+
 
 export default function Nav() {
     return (
@@ -8,7 +10,7 @@ export default function Nav() {
                 <a href='#projects'>projects</a>
             </div>
             <div className="flex gap-4">
-                <a>resume</a>
+                <a className ='flex items-center gap-1'>resume<GoDownload/></a>
                 <a href='https://github.com/twoandtwelve'>github</a>
                 <a href='https://www.linkedin.com/in/jacky-kim-21b154263/'>linkedIn</a>
             </div>

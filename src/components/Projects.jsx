@@ -1,6 +1,6 @@
 import React from "react"
 
-import harderturrets from '../images/harderturrets.png'
+import harderturrets from '../images/test.png'
 
 export default function Projects() {
     return (
