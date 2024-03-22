@@ -11,6 +11,8 @@ export default function App() {
       <Nav />
       <Header />
       <Projects />
+      <About />
+      <Footer />
     </div>
   )
 }
