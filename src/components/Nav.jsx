@@ -1,5 +1,6 @@
 import React from "react"
 import { GoDownload } from "react-icons/go";
+import CV from "/public/files/jackykim_cv.pdf"
 
 
 export default function Nav() {
@@ -12,7 +13,7 @@ export default function Nav() {
                     <a href='#about'>about me</a>
                 </div>
                 <div className="flex gap-4">
-                    <a href="/public/files/jackykim_cv.pdf" target="_blank" download className ='flex items-center gap-1'>resume<GoDownload/></a>
+                    <a href={CV} download="jackykim_cv.pdf" target="_blank" className ='flex items-center gap-1'>resume<GoDownload/></a>
                     <a href='https://github.com/twoandtwelve'>github</a>
                     <a href='https://www.linkedin.com/in/jacky-kim-21b154263/'>linkedIn</a>
                 </div>
