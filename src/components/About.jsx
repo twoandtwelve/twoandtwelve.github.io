@@ -6,8 +6,8 @@ export default function About() {
         <section id='about' className='max-w-3xl mx-auto px-8 py-5 pb-52'>
             <h2 className='mb-10 font-medium text-xl'>education</h2>
             <div className='flex flex-col sm:flex-row pb-20'>   
-                <img src={uoa} className='mx-0 max-w-32 max-h-32'/>
-                <div className='px-0 sm:px-12'>
+                <img src={uoa} className='mx-0 max-w-32 max-h-32 mt-2'/>
+                <div className='px-0 sm:px-12 sm:mt-0 mt-4'>
                     <small className='italic'>feb 2022 - nov 2025</small>
                     <div className='mb-5 items-baseline gap-1'>
                         <h4 className='font-medium text-xl'>Bachelor of Engineering (Honours)</h4>
