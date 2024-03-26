@@ -14,7 +14,7 @@ export default function Projects() {
                         <img src={test} className='rounded-t-md'/>
                     </div>
                     <div className='p-4 grow'>
-                        <h3 className='mb-2 font-semibold text-l'>HarderTurrets</h3>
+                        <h3 className='font-semibold text-l'>harder turrets</h3>
                         <p>A Lethal Company mod that increases the spawnrate & difficulty of turrets.</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
@@ -27,7 +27,7 @@ export default function Projects() {
                         <img src={test} className='rounded-t-md'/>
                     </div>
                     <div className='p-4 grow'>
-                        <h3 className='mb-2 font-semibold text-l'>Portfolio Website</h3>
+                        <h3 className='font-semibold text-l'>portfolio website</h3>
                         <p>A personal website to display my projects & portfolio work.</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
@@ -40,7 +40,7 @@ export default function Projects() {
                         <img src={test} className='rounded-t-md'/>
                     </div>
                     <div className='p-4 grow'>
-                        <h3 className='mb-2 font-semibold text-l'>InfiniteSprayCans</h3>
+                        <h3 className='font-semibold text-l'>infinite spray cans</h3>
                         <p>A Lethal Company mod that allows infinite use of the spray paint can item.</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
@@ -53,7 +53,7 @@ export default function Projects() {
                         <img src={test} className='rounded-t-md'/>
                     </div>
                     <div className='p-4 grow'>
-                        <h3 className='mb-2 font-semibold text-l'>NoLateNotification</h3>
+                        <h3 className='font-semibold text-l'>no late notification</h3>
                         <p>A Lethal Company mod that removes the alert that pops up when it gets late in-game.</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
@@ -66,7 +66,7 @@ export default function Projects() {
                         <img src={test} className='rounded-t-md'/>
                     </div>
                     <div className='p-4 grow'>
-                        <h3 className='mb-2 font-semibold text-l'>COSMIC CATASTROPHE</h3>
+                        <h3 className='font-semibold text-l'>cosmic catastrophe</h3>
                         <p>An escape room-like game developed collaboratively with two other classmates for
                         a course project.</p>
                     </div> 
@@ -79,7 +79,7 @@ export default function Projects() {
                         <img src={test} className='rounded-t-md'/>
                     </div>
                     <div className='p-4 grow'>
-                        <h3 className='mb-2 font-semibold text-l'>Terraria Cheat Sheet Script</h3>
+                        <h3 className='font-semibold text-l'>cheat sheet script</h3>
                         <p>A python script that generates a cheat sheet containing useful 
                         in-game information for Terraria Calamity Mod.</p>
                     </div>
