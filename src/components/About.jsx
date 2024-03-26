@@ -10,11 +10,12 @@ export default function About() {
                 <img src={uoa} className='mx-0 max-w-32 max-h-32 mt-2'/>
                 <div className='px-0 sm:px-12 sm:mt-0 mt-4'>
                     <small className='italic'>feb 2022 - nov 2025</small>
-                    <div className='mb-5 items-baseline gap-1'>
+                    <div className='mb-6 items-baseline gap-1'>
                         <h4 className='font-medium text-xl'>Bachelor of Engineering (Honours)</h4>
                         <small className='font-normal italic text-sm'>University of Auckland</small>
                     </div>
-                    <p>Specialising in <strong>Software</strong> under the department of Electrical, Computer Systems, and Software Engineering (ECSE).</p>
+                    <p className='mb-6'>Specialising in <strong>Software</strong> under the department of Electrical, Computer Systems, and Software Engineering (ECSE).</p>
+                    <p>Club member: Software Engineering Students Association, Web Development & Consulting Club</p>
                 </div>   
             </div>
             <h2 className='mb-10 font-medium text-xl'>interests</h2>
