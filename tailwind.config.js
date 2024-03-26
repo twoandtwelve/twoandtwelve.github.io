@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
       },
+      maxWidth: {
+        'project': '14rem',
+      },
     },
   },
   plugins: [],

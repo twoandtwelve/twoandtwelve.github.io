@@ -1,11 +1,12 @@
 import React from "react"
 import uoa from "/public/images/uoa.jpg"
 
+
 export default function About() {
     return (
-        <section id='about' className='max-w-3xl mx-auto px-8 py-5 pb-52'>
+        <section id='about' className='max-w-3xl mx-auto px-8 py-5 pb-60'>
             <h2 className='mb-10 font-medium text-xl'>education</h2>
-            <div className='flex flex-col sm:flex-row pb-20'>   
+            <div className='flex flex-col sm:flex-row pb-28'>   
                 <img src={uoa} className='mx-0 max-w-32 max-h-32 mt-2'/>
                 <div className='px-0 sm:px-12 sm:mt-0 mt-4'>
                     <small className='italic'>feb 2022 - nov 2025</small>
@@ -17,9 +18,9 @@ export default function About() {
                 </div>   
             </div>
             <h2 className='mb-10 font-medium text-xl'>interests</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iusto dolorum accusamus dolorem
+            {/*<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iusto dolorum accusamus dolorem
                 dignissimos ullam enim pariatur sit neque debitis, inventore delectus,
-                quam est, praesentium tenetur consequuntur suscipit nulla eaque??</p>
+                quam est, praesentium tenetur consequuntur suscipit nulla eaque??</p>*/}
         </section>
     )   
 }   
