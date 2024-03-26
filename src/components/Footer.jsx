@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-scroll";
 import { DiReact } from "react-icons/di";
 import { DiJavascript1 } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
@@ -11,9 +12,9 @@ export default function Footer() {
                 <small className='flex items-center gap-1'><FaRegCopyright classname='text-xl'/>
                  Jacky Kim 2024
                 </small>
-                <a href="#home" className='flex items-center'>
+                <Link to="home" smooth duration={500} className='flex items-center cursor-pointer'>
                     <small>back to top</small>
-                </a>
+                </Link>
                 <small className='flex items-center'>made with <DiReact className='text-xl'/>
                     <DiJavascript1 className='text-xl'/>
                     <SiTailwindcss className='text-xl'/>
