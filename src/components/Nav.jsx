@@ -11,7 +11,7 @@ export default function Nav() {
 
     return (
         <nav id='home' className='max-w-3xl mx-auto px-8 py-16'>
-            <div className='flex flex-row gap-2 justify-between items-center'>
+            <div className='flex flex-row gap-2 justify-between'>
                 <div className="flex gap-4">
                     <Link to='home' smooth duration={500} className='cursor-pointer'>home</Link>
                     <Link to='projects' smooth duration={500} className='cursor-pointer'>projects</Link>
@@ -22,9 +22,19 @@ export default function Nav() {
                     <a href='https://github.com/twoandtwelve' target="_blank" >github</a>
                     <a href='https://www.linkedin.com/in/jacky-kim-21b154263/' target="_blank">linkedIn</a>
                 </div>
-                <button className="flex sm:hidden" onClick={() => setOpen(!open)}>
-                    <CiMenuBurger />
-                </button>
+                <div className='flex flex-col sm:hidden'>
+                    <button className='flex justify-end' onClick={() => setOpen(!open)}>
+                        <CiMenuBurger className='text-lg'/>
+                    </button>
+                    <div>
+                        {open && (
+                            <div className='flex flex-col items-end p-2 gap-2'>
+                                <a href={CV} download="jackykim_cv.pdf" target="_blank" className ='flex items-center gap-1'><GoDownload/>resume</a>
+                                <a href='https://github.com/twoandtwelve' target="_blank" >github</a>
+                                <a href='https://www.linkedin.com/in/jacky-kim-21b154263/' target="_blank">linkedIn</a>
+                            </div>)}
+                    </div>
+                </div>
             </div>
         </nav>
     )   
