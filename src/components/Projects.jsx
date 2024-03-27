@@ -50,17 +50,6 @@ export default function Projects() {
                     </div>
                 </article>
                 <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
-                    <img src={No_Late_Notification} className='rounded-t-md'/>
-                    <div className='p-4 pb-0 grow'>
-                        <h3 className='font-semibold text-l'>no late notification</h3>
-                        <p>A Lethal Company mod that removes the alert that pops up when it gets late in-game.</p>
-                    </div>
-                    <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
-                        <a href='https://thunderstore.io/c/lethal-company/p/jacky/NoLateNotification/' target='_blank'><GoLinkExternal /></a>
-                        <a href='https://github.com/twoandtwelve/NoLateNotification' target='_blank'><AiOutlineGithub /></a>
-                    </div>
-                </article>
-                <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
                     <img src={Cosmic_Catastrophe} className='rounded-t-md'/>
                     <div className='p-4 pb-0 grow'>
                         <h3 className='font-semibold text-l'>cosmic catastrophe</h3>
@@ -69,6 +58,17 @@ export default function Projects() {
                     </div> 
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
                     <a href='https://github.com/twoandtwelve/escape-room-game' target='_blank'><AiOutlineGithub /></a>
+                    </div>
+                </article>
+                <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
+                    <img src={No_Late_Notification} className='rounded-t-md'/>
+                    <div className='p-4 pb-0 grow'>
+                        <h3 className='font-semibold text-l'>no late notification</h3>
+                        <p>A Lethal Company mod that removes the alert that pops up when it gets late in-game.</p>
+                    </div>
+                    <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
+                        <a href='https://thunderstore.io/c/lethal-company/p/jacky/NoLateNotification/' target='_blank'><GoLinkExternal /></a>
+                        <a href='https://github.com/twoandtwelve/NoLateNotification' target='_blank'><AiOutlineGithub /></a>
                     </div>
                 </article>
                 <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
