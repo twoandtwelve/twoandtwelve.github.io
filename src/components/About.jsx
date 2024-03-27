@@ -14,7 +14,10 @@ export default function About() {
                         <h4 className='font-medium text-xl'>Bachelor of Engineering (Honours)</h4>
                         <small className='font-normal italic text-sm'>University of Auckland</small>
                     </div>
-                    <p className='mb-6'>Specialising in <strong>Software</strong> under the department of Electrical, Computer Systems, and Software Engineering (ECSE).</p>
+                    <p className='mb-6'>
+                    Specialising in <a href="https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/software-engineering/undergraduate.html"
+                       target="_blank" className='underline'>Software</a> under the department of Electrical, Computer Systems, and Software Engineering (ECSE).
+                    </p>
                     <p>Club member: Software Engineering Students Association, Web Development & Consulting Club</p>
                 </div>   
             </div>
