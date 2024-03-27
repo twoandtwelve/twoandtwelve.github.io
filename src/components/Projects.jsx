@@ -1,7 +1,10 @@
 import React from "react"
 import { AiOutlineGithub } from "react-icons/ai";
 import { GoLinkExternal } from "react-icons/go";
-import Cosmic_Catastrophe from "/public/images/cosmic_catastrophe.png"
+import Cosmic_Catastrophe from "/public/images/cosmic_catastrophe.png";
+import Harder_Turrets from "/public/images/harder_turrets.png";
+import Infinite_Spray_Cans from "/public/images/infinite_spray_cans.png"
+import No_Late_Notification from "/public/images/no_late_notification.png"
 
 import test from '/public/images/test.png'
 
@@ -12,7 +15,7 @@ export default function Projects() {
             <div className='flex flex-wrap justify-center gap-4'>
                 <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
                     <div>
-                        <img src={test} className='rounded-t-md'/>
+                        <img src={Harder_Turrets} className='rounded-t-md'/>
                     </div>
                     <div className='p-4 pb-0 grow'>
                         <h3 className='font-semibold text-l'>harder turrets</h3>    
@@ -38,7 +41,7 @@ export default function Projects() {
                 </article>
                 <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
                     <div>
-                        <img src={test} className='rounded-t-md'/>
+                        <img src={Infinite_Spray_Cans} className='rounded-t-md'/>
                     </div>
                     <div className='p-4 pb-0 grow'>
                         <h3 className='font-semibold text-l'>infinite spray cans</h3>
@@ -51,7 +54,7 @@ export default function Projects() {
                 </article>
                 <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
                     <div>
-                        <img src={test} className='rounded-t-md'/>
+                        <img src={No_Late_Notification} className='rounded-t-md'/>
                     </div>
                     <div className='p-4 pb-0 grow'>
                         <h3 className='font-semibold text-l'>no late notification</h3>
