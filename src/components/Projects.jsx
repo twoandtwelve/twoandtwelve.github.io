@@ -16,10 +16,8 @@ export default function Projects() {
         <section id='projects' className='max-w-3xl mx-auto px-8 py-6'>
             <h2 className='mb-10 font-medium text-xl'>projects</h2>
             <div className='flex flex-wrap justify-center gap-4'>
-                <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
-                    <div>
-                        <img src={Harder_Turrets} className='rounded-t-md'/>
-                    </div>
+                <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>   
+                    <img src={Harder_Turrets} className='rounded-t-md'/>
                     <div className='p-4 pb-0 grow'>
                         <h3 className='font-semibold text-l'>harder turrets</h3>    
                         <p>A Lethal Company mod that increases the spawnrate & difficulty of turrets.</p>
