@@ -6,7 +6,7 @@ import test from '/public/images/test.png'
 
 export default function Projects() {
     return (
-        <section id='projects' className='max-w-3xl mx-auto px-8 py-5 pb-28'>
+        <section id='projects' className='max-w-3xl mx-auto px-8 py-6'>
             <h2 className='mb-10 font-medium text-xl'>projects</h2>
             <div className='flex flex-wrap justify-center gap-4'>
                 <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>

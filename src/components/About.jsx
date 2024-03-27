@@ -4,7 +4,7 @@ import uoa from "/public/images/uoa.jpg"
 
 export default function About() {
     return (
-        <section id='about' className='max-w-3xl mx-auto px-8 py-5 pb-60'>
+        <section id='about' className='max-w-3xl mx-auto px-8 py-6'>
             <h2 className='mb-10 font-medium text-xl'>education</h2>
             <div className='flex flex-col sm:flex-row pb-28'>   
                 <img src={uoa} className='mx-0 max-w-32 max-h-32 mt-2'/>
