@@ -1,6 +1,7 @@
 import React from "react"
 import { AiOutlineGithub } from "react-icons/ai";
 import { GoLinkExternal } from "react-icons/go";
+import Cosmic_Catastrophe from "/public/images/cosmic_catastrophe.png"
 
 import test from '/public/images/test.png'
 
@@ -63,7 +64,7 @@ export default function Projects() {
                 </article>
                 <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
                     <div>
-                        <img src={test} className='rounded-t-md'/>
+                        <img src={Cosmic_Catastrophe} className='rounded-t-md'/>
                     </div>
                     <div className='p-4 pb-0 grow'>
                         <h3 className='font-semibold text-l'>cosmic catastrophe</h3>
