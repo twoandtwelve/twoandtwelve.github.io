@@ -18,8 +18,8 @@ export default function Projects() {
                         <p>A Lethal Company mod that increases the spawnrate & difficulty of turrets.</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
-                        <a href='https://thunderstore.io/c/lethal-company/p/jacky/HarderTurrets/'><GoLinkExternal /></a>
-                        <a href='https://github.com/twoandtwelve/HarderTurrets'><AiOutlineGithub /></a>
+                        <a href='https://thunderstore.io/c/lethal-company/p/jacky/HarderTurrets/' target='_blank'><GoLinkExternal /></a>
+                        <a href='https://github.com/twoandtwelve/HarderTurrets' target='_blank'><AiOutlineGithub /></a>
                     </div>
                 </article>
                 <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
@@ -32,7 +32,7 @@ export default function Projects() {
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
                     <a href='#home'><GoLinkExternal /></a>
-                    <a href='https://github.com/twoandtwelve/twoandtwelve.github.io'><AiOutlineGithub /></a>
+                    <a href='https://github.com/twoandtwelve/twoandtwelve.github.io' target='_blank'><AiOutlineGithub /></a>
                     </div>
                 </article>
                 <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
@@ -44,8 +44,8 @@ export default function Projects() {
                         <p>A Lethal Company mod that allows infinite use of the spray paint can item.</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
-                        <a href='https://thunderstore.io/c/lethal-company/p/jacky/InfiniteSprayCans/'><GoLinkExternal /></a>
-                        <a href='https://github.com/twoandtwelve/InfiniteSprayCans'><AiOutlineGithub /></a>
+                        <a href='https://thunderstore.io/c/lethal-company/p/jacky/InfiniteSprayCans/' target='_blank'><GoLinkExternal /></a>
+                        <a href='https://github.com/twoandtwelve/InfiniteSprayCans' target='_blank'><AiOutlineGithub /></a>
                     </div>
                 </article>
                 <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
@@ -57,8 +57,8 @@ export default function Projects() {
                         <p>A Lethal Company mod that removes the alert that pops up when it gets late in-game.</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
-                        <a href='https://thunderstore.io/c/lethal-company/p/jacky/NoLateNotification/'><GoLinkExternal /></a>
-                        <a href='https://github.com/twoandtwelve/NoLateNotification'><AiOutlineGithub /></a>
+                        <a href='https://thunderstore.io/c/lethal-company/p/jacky/NoLateNotification/' target='_blank'><GoLinkExternal /></a>
+                        <a href='https://github.com/twoandtwelve/NoLateNotification' target='_blank'><AiOutlineGithub /></a>
                     </div>
                 </article>
                 <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
@@ -71,7 +71,7 @@ export default function Projects() {
                         a course project.</p>
                     </div> 
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
-                    <a href='https://github.com/twoandtwelve/escape-room-game'><AiOutlineGithub /></a>
+                    <a href='https://github.com/twoandtwelve/escape-room-game' target='_blank'><AiOutlineGithub /></a>
                     </div>
                 </article>
                 <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
@@ -84,7 +84,7 @@ export default function Projects() {
                         in-game information for Terraria Calamity Mod.</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
-                    <a href='https://github.com/twoandtwelve/weapons-cheatsheet'><AiOutlineGithub /></a>
+                    <a href='https://github.com/twoandtwelve/weapons-cheatsheet' target='_blank'><AiOutlineGithub /></a>
                     </div>
                 </article>
             </div>
