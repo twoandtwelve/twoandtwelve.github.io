@@ -21,8 +21,9 @@ export default function About() {
                     <p>Club member: Software Engineering Students Association, Web Development & Consulting Club</p>
                 </div>   
             </div>
+            {/*
             <h2 className='mb-10 font-medium text-xl'>interests</h2>
-            {/*<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iusto dolorum accusamus dolorem
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iusto dolorum accusamus dolorem
                 dignissimos ullam enim pariatur sit neque debitis, inventore delectus,
                 quam est, praesentium tenetur consequuntur suscipit nulla eaque??</p>*/}
         </section>
