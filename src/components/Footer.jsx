@@ -15,7 +15,7 @@ export default function Footer() {
                 <Link to="home" smooth duration={500} className='flex items-center cursor-pointer'>
                     <small>back to top</small>
                 </Link>
-                <small className='flex items-center'>made with <DiReact className='text-xl'/>
+                <small className='flex items-center'>made using <DiReact className='text-xl'/>
                     <DiJavascript1 className='text-xl'/>
                     <SiTailwindcss className='text-xl'/>
                 </small>
