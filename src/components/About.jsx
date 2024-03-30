@@ -10,7 +10,7 @@ import { IoLogoJavascript } from "react-icons/io";
 export default function About() {
     return (
         <section id='about' className='max-w-3xl mx-auto px-8 py-6'>
-            <div className='pb-28'>
+            <div className='pb-24'>
                 <h2 className='mb-8 font-medium text-xl'>my tech stack</h2>
                 <div className='flex flex-col'>
                     <div className='flex gap-2 flex-col sm:flex-row mb-6'>
@@ -45,14 +45,16 @@ export default function About() {
                     <p>
                         I have experience in <strong>Java</strong> and <strong>C</strong>, both of which I have learnt in my
                         university courses and built many course projects with.
-                        Currently learning databases and <strong>SQL</strong> as part of my penultimate year courses.
+                        Currently learning <strong>SQL</strong> and database systems as part of my penultimate year courses.
                         <br/>
                         <br/>
-                        Outside of university, I like using <strong>Python</strong> and <strong>C#</strong> to build personal projects.
-                        
-                        
-
-
+                        Outside of university, I like to use <strong>Python</strong> and <strong>C#</strong> to build personal projects.
+                        I have a particular interest in reverse engineering and am familiar with decompiler software such as <strong>ILSpy</strong>, hence my passion for video game mod development. 
+                        For Front-End development, I enjoy using <strong>React</strong> and <strong>Tailwind CSS</strong> to streamline the coding process. 
+                        <br />
+                        <br />
+                        <br />
+                        Other technologies: Git, JavaFX, MATLAB, RStudio, Ubuntu
                     </p>
                 </div>
             </div>
