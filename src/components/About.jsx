@@ -11,40 +11,40 @@ export default function About() {
     return (
         <section id='about' className='max-w-3xl mx-auto px-8 py-6'>
             <div className='pb-28'>
-                <h2 className='mb-10 font-medium text-xl'>my tech stack</h2>
+                <h2 className='mb-8 font-medium text-xl'>my tech stack</h2>
                 <div className='flex flex-col'>
-                    <div className='flex gap-2 flex-col sm:flex-row mb-5'>
+                    <div className='flex gap-2 flex-col sm:flex-row mb-6'>
                         <div className='flex gap-2'>
-                            <div className='flex justify-center items-center aspect-square w-20 bg-slate-800'>
-                                <p><FaJava className='text-5xl text-white'/></p>
+                            <div className='flex justify-center items-center aspect-square w-20 bg-slate-800 text-5xl text-white hover:bg-white hover:text-slate-800 hover:border hover:border-slate-800'>
+                                <p><FaJava/></p>
                             </div>
-                            <div className='flex justify-center items-center aspect-square w-20 bg-slate-800'>
-                                <p><TbBrandCSharp className='text-5xl text-white'/></p>
+                            <div className='flex justify-center items-center aspect-square w-20 bg-slate-800 text-5xl text-white hover:bg-white hover:text-slate-800 hover:border hover:border-slate-800'>
+                                <p><TbBrandCSharp/></p>
                             </div>
-                            <div className='flex justify-center items-center aspect-square w-20 bg-slate-800'>
-                                <p><FaPython className='text-5xl text-white'/></p>
+                            <div className='flex justify-center items-center aspect-square w-20 bg-slate-800 text-5xl text-white hover:bg-white hover:text-slate-800 hover:border hover:border-slate-800'>
+                                <p><FaPython/></p>
                             </div>
                         </div>
                         <div className='flex gap-2'>
-                            <div className='flex justify-center items-center aspect-square w-20 bg-slate-800'>
-                                <p><FaHtml5 className='text-5xl text-white'/></p>
+                            <div className='flex justify-center items-center aspect-square w-20 bg-slate-800 text-5xl text-white hover:bg-white hover:text-slate-800 hover:border hover:border-slate-800'>
+                                <p><FaHtml5/></p>
                             </div>
-                            <div className='flex justify-center items-center aspect-square w-20 bg-slate-800'>
-                                <p><FaCss3Alt className='text-5xl text-white'/></p>
+                            <div className='flex justify-center items-center aspect-square w-20 bg-slate-800 text-5xl text-white hover:bg-white hover:text-slate-800 hover:border hover:border-slate-800'>
+                                <p><FaCss3Alt/></p>
                             </div>
-                            <div className='flex justify-center items-center aspect-square w-20 bg-slate-800'>
-                                <p><IoLogoJavascript className='text-5xl text-white'/></p>
+                            <div className='flex justify-center items-center aspect-square w-20 bg-slate-800 text-5xl text-white hover:bg-white hover:text-slate-800 hover:border hover:border-slate-800'>
+                                <p><IoLogoJavascript/></p>
                             </div>
                         </div>
                     </div>
-                    <p className=' pr-20 bg-green-200'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quasi
+                    <p className=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quasi
                         hic dolorem eius vel nobis aspernatur dicta ratione! Cum eum dolorem aliquam
                         fugit quibusdam, harum fuga quasi. Enim, obcaecati perspiciatis.
                     </p>
                 </div>
             </div>
-            <div className='pb-28 bg-red-300'>
-                <h2 className='mb-10 font-medium text-xl'>education</h2>
+            <div className='pb-28'>
+                <h2 className='mb-8 font-medium text-xl'>education</h2>
                 <div className='flex flex-col sm:flex-row'>   
                     <img src={uoa} className='mx-0 max-w-32 max-h-32 mt-2'/>
                     <div className='px-0 sm:px-12 sm:mt-0 mt-4'>
