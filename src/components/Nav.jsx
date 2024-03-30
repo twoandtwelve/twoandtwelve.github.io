@@ -22,7 +22,7 @@ export default function Nav() {
                     <a href='https://github.com/twoandtwelve' target="_blank" >github</a>
                     <a href='https://www.linkedin.com/in/jacky-kim-21b154263/' target="_blank">linkedIn</a>
                 </div>
-                <div className='flex flex-col sm:hidden'>
+                <div className='flex flex-col sm:hidden'> 
                     <button className='flex justify-end mt-1' onClick={() => setOpen(!open)}>
                         <CiMenuBurger className='text-lg'/>
                     </button>
