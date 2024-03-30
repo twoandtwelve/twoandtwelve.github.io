@@ -8,15 +8,12 @@ import No_Late_Notification from "/public/images/no_late_notification.png"
 import Cheat_Sheet from "/public/images/cheat_sheet.jpeg";
 import Website from "/public/images/website.jpeg";
 
-
-import test from '/public/images/test.png'
-
 export default function Projects() {
     return (
         <section id='projects' className='max-w-3xl mx-auto px-8 py-6'>
             <h2 className='mb-10 font-medium text-xl'>projects</h2>
             <div className='flex flex-wrap justify-center gap-4'>
-            <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
+                <article className='flex flex-col max-w-screen-sm sm:max-w-project border border-slate-500 rounded-md bg-white drop-shadow-lg'>
                     <img src={Infinite_Spray_Cans} className='rounded-t-md'/>
                     <div className='p-4 pb-0 grow'>
                         <h3 className='font-semibold text-l'>infinite spray cans</h3>
