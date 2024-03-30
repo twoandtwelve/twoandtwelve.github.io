@@ -45,10 +45,11 @@ export default function About() {
                     <p>
                         I have experience in <strong>Java</strong> and <strong>C</strong>, both of which I have learnt in my
                         university courses and built many course projects with.
-                        Also currently learning <strong>SQL</strong> and databases as part of my penultimate year courses.
+                        Currently learning databases and <strong>SQL</strong> as part of my penultimate year courses.
                         <br/>
                         <br/>
-                        Outside of university, I like using <strong>Python</strong> and <strong>C#</strong> to build personal projects. 
+                        Outside of university, I like using <strong>Python</strong> and <strong>C#</strong> to build personal projects.
+                         
                         
 
 
