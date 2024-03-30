@@ -72,8 +72,8 @@ export default function Projects() {
                     <img src={Cheat_Sheet} className='rounded-t-md'/>
                     <div className='p-4 pb-0 grow'>
                         <h3 className='font-semibold text-l'>cheat sheet script</h3>
-                        <p>A python script that generates a cheat sheet containing useful 
-                        in-game information for Terraria Calamity Mod.</p>
+                        <p>A Python script that generates a cheat sheet containing 
+                        in-game item information for Terraria Calamity Mod.</p>
                     </div>
                     <div className='p-4 flex justify-end items-center gap-4 text-2xl'>
                     <a href='https://github.com/twoandtwelve/weapons-cheatsheet' target='_blank'><AiOutlineGithub /></a>
