@@ -3,7 +3,7 @@ import React from "react"
 
 export default function Header() {
     return (
-        <header className='flex max-w-3xl mx-auto px-8 pt-24 pb-32'>
+        <header className='flex max-w-3xl mx-auto px-8 pt-12 pb-16'>
                 <div>
                     <h1 className='mb-5 font-medium text-2xl'>hi, I'm jacky</h1>
                     <p>I'm a penultimate year <strong>Software Engineering student @ UoA, NZ</strong>. 

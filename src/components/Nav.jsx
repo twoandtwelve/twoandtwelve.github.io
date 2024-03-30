@@ -10,7 +10,7 @@ export default function Nav() {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav id='home' className='max-w-3xl mx-auto px-8 py-16'>
+        <nav id='home' className='max-w-3xl mx-auto px-8 pt-16 pb-8'>
             <div className='flex flex-row gap-2 justify-between'>
                 <div className="flex gap-4">
                     <Link to='home' smooth duration={500} className='cursor-pointer'>home</Link>
