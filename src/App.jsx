@@ -4,6 +4,7 @@ import Nav from './components/Nav'
 import Projects from './components/Projects'
 import About from './components/About'
 import Footer from './components/Footer'
+import Contact from './components/Contact'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Header />
       <Projects />
       <About />
+      <Contact />
       <Footer />
     </div>
   )
