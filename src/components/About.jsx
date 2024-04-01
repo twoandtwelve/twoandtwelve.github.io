@@ -50,7 +50,7 @@ export default function About() {
                         <br/>
                         Outside of university, I like to use <strong>Python</strong> and <strong>C#</strong> to build personal projects.
                         I have an interest in reverse engineering and am familiar with decompiler software such as <strong>ILSpy</strong>, hence my passion for video game mod development. 
-                        For Front-End development, I enjoy using <strong>React</strong> and <strong>Tailwind CSS</strong>.
+                        For Front-End development, I enjoy using <strong>React</strong> and <strong>JavaScript</strong>.
                         <br />
                         <br />
                         <br />
