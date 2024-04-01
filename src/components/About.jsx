@@ -15,28 +15,28 @@ export default function About() {
                 <div className='flex flex-col'>
                     <div className='flex gap-2 flex-col sm:flex-row mb-6'>
                         <div className='flex gap-2'>
-                            <div className='flex flex-col gap-1 justify-center items-center aspect-square w-24 text-white border border-slate-700 bg-slate-700 hover:bg-slate-300 hover:text-slate-800 hover:border hover:border-slate-300 ease-in-out duration-200'>
+                            <div className='flex flex-col gap-1 justify-center items-center aspect-square w-24 text-white bg-cyan-900 hover:bg-slate-200 hover:text-cyan-900 ease-in-out duration-200'>
                                 <p className='text-4xl'><FaJava/></p>
                                 <p className='text-base'>Java</p>
                             </div>
-                            <div className='flex flex-col gap-1 justify-center items-center aspect-square w-24 text-white border border-slate-700 bg-slate-700 hover:bg-slate-300 hover:text-slate-800 hover:border hover:border-slate-300 ease-in-out duration-200'>
+                            <div className='flex flex-col gap-1 justify-center items-center aspect-square w-24 text-white bg-cyan-900 hover:bg-slate-200 hover:text-cyan-900 ease-in-out duration-200'>
                                 <p className='text-4xl'><FaPython/></p>
                                 <p className='text-base'>Python</p>
                             </div>
-                            <div className='flex justify-center items-center aspect-square w-24 text-white border border-slate-700 bg-slate-700 hover:bg-slate-300 hover:text-slate-800 hover:border hover:border-slate-300 ease-in-out duration-200'>
+                            <div className='flex justify-center items-center aspect-square w-24 text-white bg-cyan-900 hover:bg-slate-200 hover:text-cyan-900 ease-in-out duration-200'>
                                 <p className='text-5xl'><TbBrandCSharp/></p>
                             </div>
                         </div>
                         <div className='flex gap-2'>
-                            <div className='flex flex-col gap-1 justify-center items-center aspect-square w-24 text-white border border-slate-700 bg-slate-700 hover:bg-slate-300 hover:text-slate-800 hover:border hover:border-slate-300 ease-in-out duration-200'>
+                            <div className='flex flex-col gap-1 justify-center items-center aspect-square w-24 text-white bg-cyan-900 hover:bg-slate-200 hover:text-cyan-900 ease-in-out duration-200'>
                                 <p className='text-4xl'><FaHtml5/></p>
                                 <p className='text-base'>HTML</p>
                             </div>
-                            <div className='flex flex-col gap-1 justify-center items-center aspect-square w-24 text-white border border-slate-700 bg-slate-700 hover:bg-slate-300 hover:text-slate-800 hover:border hover:border-slate-300 ease-in-out duration-200'>
+                            <div className='flex flex-col gap-1 justify-center items-center aspect-square w-24 text-white bg-cyan-900 hover:bg-slate-200 hover:text-cyan-900 ease-in-out duration-200'>
                                 <p className='text-4xl'><FaCss3Alt/></p>
                                 <p className='text-base'>CSS</p>
                             </div>
-                            <div className='flex flex-col gap-1 justify-center items-center aspect-square w-24 text-white border border-slate-700 bg-slate-700 hover:bg-slate-300 hover:text-slate-800 hover:border hover:border-slate-300 ease-in-out duration-200'>
+                            <div className='flex flex-col gap-1 justify-center items-center aspect-square w-24 text-white  bg-cyan-900 hover:bg-slate-200 hover:text-cyan-900 ease-in-out duration-200'>
                                 <p className='text-4xl'><IoLogoJavascript/></p>
                                 <p className='text-base'>JavaScript</p>
                             </div>
