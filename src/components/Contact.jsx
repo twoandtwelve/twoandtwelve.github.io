@@ -1,12 +1,16 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 
     const form = useRef()
+    const [isMessageSent, setIsMessageSent] = useState(false);
+    const [isButtonDisabled, setIsButtonDisabled] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
+
+        setIsButtonDisabled(true);
 
         emailjs
             .sendForm(import.meta.env.VITE_EMAIL_SERVICE_ID, import.meta.env.VITE_EMAIL_TEMPLATE_ID, form.current, {
@@ -15,6 +19,12 @@ export default function Contact() {
             .then(
                 () => {
                     console.log('SUCCESS!');
+                    setIsMessageSent(true);
+                    setTimeout(() => {
+                        setIsMessageSent(false);
+                        setIsButtonDisabled(false);
+                    }, 10000);
+                    form.current.reset();
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
@@ -37,7 +47,10 @@ export default function Contact() {
                     placeholder="message..." 
                     required 
                 />
-                <button className='bg-slate-100 py-2 px-5' type="submit">Send</button>
+                <div className='flex gap-4 items-center'>
+                <button className='bg-slate-100 py-2 px-5' type="submit" disabled={isButtonDisabled}>Send</button>
+                    {isMessageSent && <p className='text-emerald-500'>Message sent successfully!</p>}
+                </div>
             </form>
         </section>
     );
