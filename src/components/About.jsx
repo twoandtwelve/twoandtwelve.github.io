@@ -58,7 +58,7 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className='pb-28'>
+            <div className='pb-24'>
                 <h2 className='mb-8 font-medium text-xl'>education</h2>
                 <div className='flex flex-col sm:flex-row'>   
                     <img src={uoa} className='mx-0 max-w-32 max-h-32 mt-2'/>
