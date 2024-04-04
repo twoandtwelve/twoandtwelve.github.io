@@ -10,7 +10,7 @@ import { IoLogoJavascript } from "react-icons/io";
 export default function About() {
     return (
         <section id='about' className='max-w-3xl mx-auto px-8 py-6'>
-            <div className='pb-24'>
+            <div className='pb-20'>
                 <h2 className='mb-8 font-medium text-xl'>my tech stack</h2>
                 <div className='flex flex-col'>
                     <div className='flex gap-2 flex-col sm:flex-row mb-6'>
@@ -58,9 +58,9 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className='pb-24'>
+            <div className='pb-16'>
                 <h2 className='mb-8 font-medium text-xl'>education</h2>
-                <div className='flex flex-col sm:flex-row'>   
+                <div className=' mb-16 flex flex-col sm:flex-row'>   
                     <img src={uoa} className='mx-0 max-w-32 max-h-32 mt-2'/>
                     <div className='px-0 sm:px-12 sm:mt-0 mt-4'>
                         <small className='italic'>feb 2022 - nov 2025</small>
@@ -74,8 +74,23 @@ export default function About() {
                         </p>
                         <p>Club member: Software Engineering Students Association, Web Development & Consulting Club</p>
                     </div>   
+                </div> 
+            </div>
+            <div className='pb-16'>
+                <h2 className='mb-8 font-medium text-xl'>awards & honours</h2>
+                <div className='mb-8 items-baseline gap-1'>
+                    <small className='italic'>2023</small>
+                    <h4 className='font-medium text-xl'>First in Course - SOFTENG 281</h4>
+                    <small className='font-normal italic text-sm'>Department of Electrical, Computer, and Software Engineering</small>
+                    <p>Recognises students who have obtained the highest overall mark in the taught course.</p>    
                 </div>
-            </div>         
+                <div className='items-baseline gap-1'>
+                    <small className='italic'>2022</small>
+                    <h4 className='font-medium text-xl'>Dean's Honours List</h4>
+                    <small className='font-normal italic text-sm'>Faculty of Engineering</small>
+                    <p>Recognises students who have demonstrated excellence in academic performance by being in the top 5% of their year of study.</p>
+                </div> 
+            </div>                
         </section>
     )   
 }   
