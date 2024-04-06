@@ -9,8 +9,8 @@ import { IoLogoJavascript } from "react-icons/io";
 
 export default function About() {
     return (
-        <section id='about' className='max-w-3xl mx-auto px-8 py-6'>
-            <div className='pb-20'>
+        <section id='about' className='max-w-3xl mx-auto px-8 py-8'>
+            <div className='py-4'>
                 <h2 className='mb-8 font-medium text-xl'>my tech stack</h2>
                 <div className='flex flex-col'>
                     <div className='flex gap-2 flex-col sm:flex-row mb-6'>
@@ -58,7 +58,7 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className='pb-16'>
+            <div className='py-4'>
                 <h2 className='mb-8 font-medium text-xl'>education</h2>
                 <div className=' mb-16 flex flex-col sm:flex-row'>   
                     <img src={uoa} className='mx-0 max-w-32 max-h-32 mt-2'/>
@@ -76,7 +76,7 @@ export default function About() {
                     </div>   
                 </div> 
             </div>
-            <div className='pb-16'>
+            <div className='py-4'>
                 <h2 className='mb-8 font-medium text-xl'>awards & honours</h2>
                 <div className='mb-8 items-baseline gap-1'>
                     <small className='italic'>2023</small>

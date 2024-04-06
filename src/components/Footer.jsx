@@ -7,7 +7,7 @@ import { FaRegCopyright } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <footer className='py-24'>
+        <footer className='py-8 pb-24'>
             <div className='mx-auto max-w-3xl px-8 flex justify-between'>
                 <small className='flex items-center gap-1'><FaRegCopyright classname='text-xl'/>
                  Jacky Kim 2024

@@ -33,7 +33,7 @@ export default function Contact() {
     }
 
     return (
-        <section id='contact' className='max-w-3xl mx-auto px-8 py-6 pb-40'>
+        <section id='contact' className='max-w-3xl mx-auto px-8 py-8 pb-44'>
             <h2 className='mb-6 font-medium text-xl'>contact</h2>
             <form ref={form} onSubmit={sendEmail} className='flex flex-col items-start gap-3'>
                 <input className='border border-cyan-700 p-2 w-full focus:outline-none focus:bg-slate-100'
