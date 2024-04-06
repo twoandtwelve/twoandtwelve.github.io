@@ -54,7 +54,7 @@ export default function About() {
                         <br />
                         <br />
                         <br />
-                        Other technologies: Git, JavaFX, MATLAB, RStudio, Ubuntu
+                        Other technologies: Git, JavaFX, MATLAB, RStudio, .NET Framework, Linux Kernel
                     </p>
                 </div>
             </div>
