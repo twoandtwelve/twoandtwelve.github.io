@@ -16,7 +16,7 @@ export default function Nav() {
                     <Link to='home' smooth duration={500} className='cursor-pointer'>home</Link>
                     <Link to='projects' smooth duration={500} className='cursor-pointer'>projects</Link>
                     <Link to='about' smooth duration={500} className='cursor-pointer'>about me</Link>
-                    <Link to='contact' smooth duration={500} className='cursor-pointer'>contact</Link>
+                    <Link to='contact' smooth duration={500} className='cursor-pointer hidden sm:block'>contact</Link>
                 </div>
                 <div className="gap-4 hidden sm:flex">
                     <a href={CV} download="jackykim_cv.pdf" target="_blank" className ='flex items-center gap-1'>resume<GoDownload/></a>
