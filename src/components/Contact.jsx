@@ -48,7 +48,7 @@ export default function Contact() {
                     required 
                 />
                 <div className='flex gap-4 items-center'>
-                <button className='bg-slate-100 py-2 px-5 hover:bg-slate-300' type="submit" disabled={isButtonDisabled}>Send</button>
+                <button className='bg-slate-100 py-2 px-5 hover:bg-slate-200' type="submit" disabled={isButtonDisabled}>Send</button>
                     {isMessageSent && <p className='text-emerald-500'>Message sent successfully!</p>}
                 </div>
             </form>
