@@ -43,12 +43,12 @@ export default function About() {
                         </div>
                     </div>
                     <p>
-                        I have experience in <strong>Java</strong> and <strong>C/C#</strong>, both of which I have learnt in my
-                        university courses and built many course projects with. Additionally, have knowledge in <strong>Python</strong>, <strong>SQL</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> and front-end libraries like <strong>React</strong>.
+                        I have experience in <strong>Java</strong> and <strong>C/C#</strong>, both of which I have learned in my
+                        university courses and built many course projects with. Additionally, I have knowledge of <strong>Python</strong>, <strong>SQL</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> and front-end libraries like <strong>React</strong>.
                         <br/>
                         <br/>
                         Outside of university, I like to learn new languages, technologies and open-source libraries to build my solutions.
-                        Particularly interested in <strong>full-stack development</strong> & <strong>distributed programming</strong>.
+                        Particularly interested in <strong>full-stack development</strong> and <strong>distributed programming</strong>.
                         <br />
                         <br />
                         <br />
