@@ -43,18 +43,16 @@ export default function About() {
                         </div>
                     </div>
                     <p>
-                        I have experience in <strong>Java</strong> and <strong>C</strong>, both of which I have learnt in my
-                        university courses and built many course projects with.
-                        Currently learning <strong>SQL</strong> and database systems as part of my penultimate year courses.
+                        I have experience in <strong>Java</strong> and <strong>C/C#</strong>, both of which I have learnt in my
+                        university courses and built many course projects with. Additionally, have knowledge in <strong>Python</strong>, <strong>SQL</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> and front-end libraries like <strong>React</strong>.
                         <br/>
                         <br/>
-                        Outside of university, I like to use <strong>Python</strong> and <strong>C#</strong> to build personal projects.
-                        I have an interest in reverse engineering and am familiar with decompiler software such as <strong>ILSpy</strong>, hence my passion for video game mod development. 
-                        For Front-End development, I enjoy using <strong>React</strong> and <strong>JavaScript</strong>.
+                        Outside of university, I like to learn new languages, technologies and open-source libraries to build my solutions.
+                        Particularly interested in <strong>full-stack development</strong> & <strong>distributed programming</strong>.
                         <br />
                         <br />
                         <br />
-                        Other technologies: Git, JavaFX, MATLAB, RStudio, .NET Framework, Linux Kernel
+                        Other technologies: Git, JavaFX, JPA/Hibernate, .NET Framework, Linux Kernel
                     </p>
                 </div>
             </div>
